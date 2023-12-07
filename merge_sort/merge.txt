@@ -1,0 +1,78 @@
+NOTE: The character z is used in this implementation as infinity because it is the largest ascii character value.
+
+MERGE SORT OUTPUT: 
+
+
+Before Merge: EASYTEST
+
+Right A < E == Adding right A
+Left E <= z == Adding left E
+
+After Merge: AESYTEST
+
+
+Before Merge: AESYTEST
+
+Left S <= Y == Adding left S
+Right Y < z == Adding right Y
+
+After Merge: AESYTEST
+
+
+Before Merge: AESYTEST
+
+Left A <= S == Adding left A
+Left E <= S == Adding left E
+Right S < z == Adding right S
+Right Y < z == Adding right Y
+
+After Merge: AESYTEST
+
+
+Before Merge: AESYTEST
+
+Right E < T == Adding right E
+Left T <= z == Adding left T
+
+After Merge: AESYETST
+
+
+Before Merge: AESYETST
+
+Left S <= T == Adding left S
+Right T < z == Adding right T
+
+After Merge: AESYETST
+
+
+Before Merge: AESYETST
+
+Left E <= S == Adding left E
+Right S < T == Adding right S
+Left T <= T == Adding left T
+Right T < z == Adding right T
+
+After Merge: AESYESTT
+
+
+Before Merge: AESYESTT
+
+Left A <= E == Adding left A
+Left E <= E == Adding left E
+Right E < S == Adding right E
+Left S <= S == Adding left S
+Right S < Y == Adding right S
+Right T < Y == Adding right T
+Right T < Y == Adding right T
+Left Y <= z == Adding left Y
+
+After Merge: AEESSTTY
+
+
+EASYTEST Final: AEESSTTY
+
+As you can see Merge sort is in fact a stable sorting method.
+This can be seen above in the instances where a character is compared to the same character.
+The algorithm always takes the character from the left array thus preserving the order.
+This is because the left array character will always be the one that came first in the original string.
+And as we know a stable sort is a sort that maintains the original ordering among characters or numbers of same value.

@@ -1,0 +1,12 @@
+BUBBLE SORT OUTPUT: 
+
+left to right pass 1: AESTESTY
+right to left pass 1: AEESTSTY
+left to right pass 2: AEESSTTY
+right to left pass 2: AEESSTTY
+left to right pass 3: AEESSTTY
+right to left pass 3: AEESSTTY
+left to right pass 4: AEESSTTY
+
+EASYTEST Final: AEESSTTY
+

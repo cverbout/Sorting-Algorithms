@@ -1,0 +1,67 @@
+SELECTION SORT OUTPUT: 
+
+Beginning index 0: EASYTEST
+Beginning Smallest char: E
+
+Smallest char changed to: A
+Swapping left E and right A
+
+After index 0: AESYTEST
+
+Beginning index 1: AESYTEST
+Beginning Smallest char: E
+
+---Not swapping left E and right E---
+
+After index 1: AESYTEST
+
+Beginning index 2: AESYTEST
+Beginning Smallest char: S
+
+Smallest char changed to: E
+Swapping left S and right E
+
+After index 2: AEEYTSST
+
+Beginning index 3: AEEYTSST
+Beginning Smallest char: Y
+
+Smallest char changed to: T
+Smallest char changed to: S
+Swapping left Y and right S
+
+After index 3: AEESTYST
+
+Beginning index 4: AEESTYST
+Beginning Smallest char: T
+
+Smallest char changed to: S
+Swapping left T and right S
+
+After index 4: AEESSYTT
+
+Beginning index 5: AEESSYTT
+Beginning Smallest char: Y
+
+Smallest char changed to: T
+Swapping left Y and right T
+
+After index 5: AEESSTYT
+
+Beginning index 6: AEESSTYT
+Beginning Smallest char: Y
+
+Smallest char changed to: T
+Swapping left Y and right T
+
+After index 6: AEESSTTY
+
+
+EASYTEST Final: AEESSTTY
+
+As you can see Selection sort is in fact a stable sorting method.
+This can be seen above in the instances where a character is compared to the same character.
+The algorithm never swaps a character with the same character. And this algorithm will always choose the first instance of a character as the smallest.
+This preserves the order by giving priority to the first discovered and locking all characters already sorted on the left.
+Therefore the left array character will always be the one that came first in the original string.
+And as we know a stable sort is a sort that maintains the original ordering among characters or numbers of same value.
